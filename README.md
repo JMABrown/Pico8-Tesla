@@ -8,6 +8,8 @@ Rapidly-exploring Random Tree (RRT) is a simple and effective method of pathfind
 
 In 2D, if large enough steps are taken, then a path can quickly be found between start position and end position - especially if there are no obstacles in the way. If a path can be found quick enough then a potential path can be drawn from A to B every frame. If ALL paths are drawn, and not just the shortest path from start to finish, then the path can be seen to fork, resembling lightning.
 
+This effect can be amplified by drawing the shortest path with a thicker line. The start position is one coil, while the goal position is another coil. In theory, this effect could be used to dynamically arc lightning between multiple points.
+
 Since I discovered this effect on the 7th of July, I decided to honour this demonstration towards the birthday of the great inventor, Nikola Tesla, born 10th July 1856.
 
 ![](gifs/rtt_oo_4_1.gif)
